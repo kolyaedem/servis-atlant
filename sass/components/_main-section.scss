@@ -1,0 +1,52 @@
+.main-section {
+    background-image: url(../../images/bg-logo2x-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 785px;
+    // transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.modal {
+    width: 462px;
+    height: 670px;
+    padding: 100px 15px;
+    border-left: 15px solid var(--accent-color);
+    text-align: center;
+    background-color: var(--bg-color)
+}
+
+.main__uppertitle {
+    @include font(700, 64px, 64px);
+    margin-bottom: 50px;
+}
+
+.main__title {
+    @include font(700, 36px, 45px);
+    margin-bottom: 10px;
+}
+
+.main__subtitle {
+    @include font(400, 36px, 45px);
+    margin-bottom: 30px;
+}
+
+.main__link {
+    display: inline-block;
+    padding: 14px 46px;
+    @include font(700, 18px, 22.5px);
+    color: var(--bg-color);
+    background-color: var(--accent-color);
+    border-radius: 3px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.pagination__title {
+    @include font(700, 36px, 45px);
+    margin-bottom: 5px;
+}
+
+.pagination__sub {
+    @include font(700, 24px, 30px);
+}

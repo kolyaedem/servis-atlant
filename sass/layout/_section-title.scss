@@ -1,0 +1,19 @@
+.section__title {
+display: flex;
+align-items: center;
+justify-content: center;
+
+font-size: 48px;
+text-align: center;
+color: inherit;
+margin-bottom: 50px;
+}
+
+.section__title::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 50px;
+    background-color: var(--accent-color);
+    
+}

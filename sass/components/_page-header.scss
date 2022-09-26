@@ -39,6 +39,11 @@
     margin-right: 50px;
 }
 
+.social__title {
+    @include font(700,18px,22.5px);
+    color: inherit;
+}
+
 /* sub section */
 .menu__nav {
     display: flex;
@@ -69,7 +74,25 @@ text-transform: uppercase;
 
 .logo {
     margin: 0 auto;
+
 }
+
+.logo__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include font(700,36px,45px);
+   
+}
+
+.header__logo {
+color: inherit;
+}
+
+.logo__letter {
+    color: var(--accent-color);
+}
+
 
 
 .cart__list {
@@ -96,3 +119,4 @@ text-transform: uppercase;
 .cart__svg {
     margin-right: 5px;
 }
+

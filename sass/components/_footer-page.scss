@@ -1,0 +1,144 @@
+.page-footer {
+  display: flex;
+  background-color: var(--primary-text-color);
+  min-width: 1870px;
+  text-align: left;
+   
+}
+
+
+.footer__bg {  
+  display: flex;
+   
+  width: 831px;
+  height: 520px;
+}
+.wrapper__link {
+    position: relative; 
+}
+
+
+.footer__link {
+     
+  color: var(--bg-color);
+  align-items: center;
+  justify-content: flex-start;
+  padding: 50px 0;
+}
+.link__top {
+    position: absolute;
+    left: 0;
+    top: -10px;
+    
+  }
+
+.footer__section {
+  display: flex;  
+  flex-wrap: wrap; 
+  
+
+}
+
+.footer__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 57px;
+}
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 90px;
+}
+.footer__span {
+  color: var(--accent-color);
+}
+.item__link {
+  @include font(700, 18px, 22.5px);
+  color: var(--bg-color);
+  text-transform: uppercase;
+}
+
+.address__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 30px;
+}
+
+.tel__list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.address__link, .footer__tel {
+    display: flex;
+    align-items: center;
+    @include font(400, 18px, 22.5px);
+    font-style: normal;
+    color: var(--bg-color);
+}
+
+.footer__svg {
+    margin-right: 5px;
+}
+
+.footer__tel {    
+    color: var(--accent-color);
+}
+
+.tel__item:last-child {
+    padding-left: 30px;
+}
+
+.footer__social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.footer__title {
+    @include font(400,18px,22.5px);
+    color: var(--bg-color);
+    margin-bottom: 5px;
+
+}
+
+
+.footer__copyright {
+    @include font(400,14px,16.17px);
+    color: var(--bg-color);
+}
+.footer__author {
+    display: flex;
+    margin-top: 75px;
+}
+
+.icon-wrapper {
+    margin-left: 215px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+.footer__icon {
+
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'Cuprum';
+    text-transform: uppercase;
+    @include font(400,14px,16.8px);
+    color: var(--bg-color);
+}
+
+.footer__img img {
+  width: 1870px;
+  height: 520px;
+  display: block;
+}
+
+

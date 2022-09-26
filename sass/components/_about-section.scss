@@ -1,0 +1,40 @@
+.about__img {
+    position: relative;
+    height: 675px;
+    width: 1870px
+}
+
+.about__bg {
+    // background-image: url(../../images/about2x-min.jpg);
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: cover; 
+    // width: 1400px;
+    // height: 675px;     
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.about__subtitle {
+    @include font(700, 18px, 22.5px);
+}
+
+.about__span {
+    color: var(--accent-color);
+}
+
+.about__article {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+  z-index: 999;
+    padding: 50px 30px;
+    border-right: 15px solid var(--accent-color);
+    height: 475px;
+    width: 791px;
+    background-color: var(--bg-color);    
+
+}

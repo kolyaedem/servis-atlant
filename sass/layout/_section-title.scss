@@ -1,13 +1,16 @@
 .section__title {
+
 display: flex;
 align-items: center;
 justify-content: center;
 
-font-size: 48px;
+@include font(700,48px,60px);
 text-align: center;
 color: inherit;
 margin-bottom: 50px;
+
 }
+
 
 .section__title::before {
     content: '';
